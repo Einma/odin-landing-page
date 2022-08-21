@@ -100,6 +100,7 @@ header {
 
 
 /*--------------------MAIN--------------------*/
+/*MAIN ONE*/
 main {
     display: flex;
     flex-direction: column;
@@ -142,6 +143,35 @@ main {
 .main-one-image-text-text {
     text-align: center;
 }
+
+
+/*MAIN TWO*/
+.main-two {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #e5e7eb;
+    color: #1f2937;
+    font-size: 24px;
+    font-weight: lighter;
+}
+
+.main-two-container {
+    width: 550px;
+    padding-top: 90px;
+    padding-bottom: 90px;
+}
+
+.main-two-quote {
+    display: flex;
+    flex-direction: column;
+}
+
+.sayer {
+    align-self: flex-end;
+    font-weight: 400;
+}
+
 /*--------------------FOOTER--------------------*/
 footer {
     color: white;
